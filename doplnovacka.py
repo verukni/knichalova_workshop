@@ -31,7 +31,7 @@
 
 with open("song.txt") as f:
 	text = f.read()
-f.closed#print(text)#vypritneme si toa abycho videli jestli to pracuje
+f.closed#print(text)#vypritneme si to abychom videli jestli to pracuje
 
 pocet_hvezdicek = int(input("Zadej kolikáté slovo se má nahradit kvězdičkama. "))
 
