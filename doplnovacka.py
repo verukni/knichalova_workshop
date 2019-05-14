@@ -17,9 +17,9 @@
 #
 #1.rodelit string--seznam
 #oddělovač je mezera
-#2-budu procházet prvk seznamu: když narazím na 5,10,15,... slovo tak to tahradím za pomlčky když to bude každé tak provede
-# slovo upraveno = tam si uloží kolik pomlček má dané slovo, len toho slove, vyhodí to číslici 4
-# cyklus prochází znaky toho slovo, a do nějké proměné slovo upraveno si přes += si přidá náhradné znak, += "-"
+#2-budu procházet prvky seznamu: když narazím na 5,10,15,... slovo tak to nahradím za pomlčky
+# slovo upraveno = tam si uložím kolik pomlček má dané slovo, len, vyhodí to číslici 4
+# cyklus prochází znaky toho slovo, a do nějké proměné slovo upraveno si přes += přidá náhradné znak, += "-"
 #vysledek.append(slovoUpr)
 #else jinak do toho výsldeku přidej přes append prvek seznamu, prvek který ted kontroluji
 #když to máme udělané tak výsledek jouineme do stringu a ten string pak uložíme do souboru
